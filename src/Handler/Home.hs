@@ -17,7 +17,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead $(luciusFile "templates/aaa.lucius")
         toWidgetHead $(luciusFile "templates/aaa.julius")
-        $(whamletFile "templates/default.hamlet")
+        $(whamletFile "templates/profile.hamlet")
         
 getQualquerCoisaR :: Handler Html
 getQualquerCoisaR = undefined
