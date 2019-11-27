@@ -15,9 +15,9 @@ textarea, input[type="text"], input[type="email"], input[type="tel"], input[type
 
 textarea{resize: none;}
 
-@font-face {font-family: 'Gotham-black'; src: url(@{StaticR fonts_gotham-black_otf});}
-@font-face {font-family: 'Gotham-bold'; src: url(@{StaticR fonts_gotham-bold_otf});}
-@font-face {font-family: 'Gotham-book'; src: url(@{StaticR fonts_gotham-book_otf});}
+@font-face {font-family: 'Gotham-black'; src: url(@{StaticR fonts_gothamblack_otf});}
+@font-face {font-family: 'Gotham-bold'; src: url(@{StaticR fonts_gothambold_otf});}
+@font-face {font-family: 'Gotham-book'; src: url(@{StaticR fonts_gothambook_otf});}
 
 @media only screen and (min-width:1024px){
 	
