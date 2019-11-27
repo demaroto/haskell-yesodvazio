@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------- Mobile -------------------------------------------------------*/
+
+@media only screen and (max-width:1023px){
+	
+/* ------------------------------------------------------------ Global ------------------------------------------------------------ */
+
+section{width:100%; position:relative; padding: 70px 0px;}
+
+.content{height:100%; width: 100%; position:relative; padding: 0px 5%;}
+    
+h1{font-size: 40px; font-weight: bold; font-family: 'Gotham-bold';}	
+h2{font-size: 22px;}
+h3{font-size: 16px; line-height: 25px;}
+h4{font-size: 14px; line-height: 20px;}
+
+img{max-width: 100%;}
+.mask{height: 100%; width: 100%; position: relative; background-color: hsla(0, 0%, 0%, 0.70);}
+
+/* ----- Ocultando componentes Desktop ----- */ 
+
+.nav-desktop{display: none;}
+	
+/* ------------------------------------------------------------ Menu ------------------------------------------------------------ */
+
+header{position:fixed; height:50px; width:100%; z-index:100; background-color: #FFF; border-bottom: 1px solid #CCC;}
+
+.icon-menu{height:50px; width:50px; position:absolute; left:100%; margin-left:-54px; padding-top: 15px; padding-left:4px;}
+
+.line-icon{height:4px; width:30px; background-color: #000; margin-bottom: 4px;}
+
+.logo-menu, .compartilhar{position: absolute;} 
+
+.logo-menu{height:40px; margin-top:5px; margin-left:20px;}
+
+.compartilhar{height: 26px; right: 0; margin-top: 12px; cursor: pointer; z-index: 99; margin-right: 70px;}
+
+.menu-animate{height:100%; width:70%; background-color:#000; margin-top:0px; left:100%; z-index:999; position:fixed; overflow:auto;}
+
+.seta{background-image:url(../Imagens/Home/Right.png); height:30px; width:30px; position:relative; margin-top:20px; margin-left:20px; margin-bottom: 20px; background-size: cover;}
+
+.nav{position:relative;}
+
+.nav a{display:flex; font-size:14px; color:#FFFFFF; font-family: 'Gotham-bold'; transition-duration:.3s; text-decoration:none; line-height:55px; padding-left:10%; text-transform: uppercase;}
+
+.nav ul, .nav li{list-style:none; margin:0; padding:0;}
+
+.menu-line{height:1px; width:100%; background-color:#6B6B6B; position:relative;}
+
+.active{background-color:#ffa600;}	
+	
+/* ---------------------------------------------- Home ---------------------------------------------- */
+
+.home{background-color: #FFF; padding: 0; background-image: url(../Imagens/Home/home-mob.png); background-size: cover; background-position: center; padding-top: 50px; padding-bottom: 70px;}
+        
+.home-box{width: 100%; position:relative; padding: 0px 5%; padding-top: 60px;}
+
+.fonte-menor{font-size: 18px; font-weight: bold; font-family: 'Gotham-bold';}
+
+.home strong{color: #ffa600; font-weight: bold; font-family: 'Gotham-bold';}
+.home h1{line-height: 45px;}
+.home p{font-weight: bold; font-family: 'Gotham-bold';}
+.home h3{font-weight: 500; font-size: 18px;}
+.home h3 a{font-weight: bold; font-family: 'Gotham-bold'; position: absolute;}
+
+.home input[type=button]{background-color: #000; padding: 10px 20px; border-radius: 30px; color: #ffa600; border:2px solid transparent; font-size: 14px; cursor: pointer; transition: .3s; right: 0; position: relative; text-transform: uppercase; margin-top: 50px; font-family: 'Gotham-bold';}
+
+.ajuste-home-fonte{padding-top: 8px; padding-bottom: 20px;}
+
+/* ---------------------------------------------- Home - Info ---------------------------------------------- */
+
+.home-info{background-image: url(../Imagens/Home/como-funciona.png); background-size: cover; background-repeat: no-repeat; background-position: center; padding:40px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
+
+.home-info-assinaturas{position: relative; right: 0; margin-top: 35px;}
+
+.home-info-assinaturas strong{color: #ffa600; font-weight: bold; font-family: 'Gotham-bold'; position: relative; font-size: 45px; float: left; margin-right: 10px;}
+
+.home-info-box{border-left:1px solid #000; padding: 10px 0px; padding-left: 20px;}
+
+.home-info-box strong{font-family: 'Gotham-bold';}
+
+.home-info h3{font-size: 16px;}
+
+/* ---------------------------------------------- Lei ---------------------------------------------- */
+
+.lei{background-image: url(../Imagens/Home/lei.png); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 0; color: #FFF;}
+
+.lei .mask{padding: 50px 0px;}
+
+.lei h1{color: #ff9100; opacity: 0.3; padding-bottom: 10px; font-size: 50px;} 
+.lei h2{font-family: 'Gotham-bold';}
+.lei h4{opacity: 0.5;}
+
+.lei-line{height: 4px; width: 50px; background-color: #FFF; position: relative; margin: 20px 0px;}
+
+.lei .aspas{position: relative; height: 80px; right: 0; margin-top: 150px; display: none;}
+
+.lei a{text-decoration: none; color: #0084ff; font-family: 'Gotham-bold';}
+
+/* ---------------------------------------------- Funciona ---------------------------------------------- */
+
+.funciona{background-image: url(../Imagens/Home/como-funciona.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+.funciona-box{width:100%; position: relative; padding:50px 0px; text-align: center;}
+
+.funciona img{height: 100px; margin-bottom:30px;}
+
+.funciona-box-lines{border: 1px solid #000; border-left: none; border-right: none;}
+
+.funciona h1{background-color: #000; color: #ffa600; padding:10px 0px 10px 30px; font-size: 30px; width: 270px; text-transform: uppercase; margin-bottom: 20px; font-size: 22px;}
+
+.funciona h3{font-size: 16px; line-height: 25px;}
+
+/* ---------------------------------------------- Assine ---------------------------------------------- */
+
+.assine{background-color: #181818; padding: 70px 0px;}
+
+.assine-block{background-color: #f8f8f8; width: 80%; margin-left: 10%; position:relative; z-index: 20;}
+
+.assine-box2{width: 100%; background-color: #ececec; padding: 50px 5%; text-align: center;}
+
+.assine-box2 img{height: 150px;}
+.assine-box2 h2{font-family: 'Gotham-bold'; padding: 20px 0px;}
+.assine-box2 h3{font-size: 16px;}
+
+.assine-box{width: 100%; padding: 50px 0px; text-align: center;}
+
+.assine-box h1{font-size: 28px; margin-bottom: 30px;}
+
+.assine input[type=text], .assine input[type=email], .assine input[type=tel], .assine select{height: 60px; width: 80%; padding: 0px 8px; border: none; font-size: 16px; border-bottom:1px solid #000; transition:.3s; background-color: hsla(0, 0%, 0%, 0);} 
+    
+.assine input[type=text]{text-transform: capitalize;}
+.assine input[type=email]{text-transform: lowercase;}
+
+.select2-selection--single{cursor: pointer; background-color: #f8f8f8 !important; border: none !important; height: 40px !important; width: 100% !important; padding: 0px !important; font-size: 16px !important; border-bottom:1px solid #000 !important; transition:.3s !important; text-align: left !important; color: #000 !important; border-radius: 0 !important; padding-left: -10px !important;}
+
+.select2-selection__rendered{color: #000 !important;}
+
+.assine option{font-size: 14px;}
+
+.assine input[type=button]{background-color: #000; padding: 10px; width: 80%; color: #ffa600; border:2px solid transparent; font-size: 18px; cursor: pointer; transition: .3s; position: relative; text-transform: uppercase; font-family: 'Gotham-bold'; margin-top: 50px;} 
+
+.assine input[type=text]:focus, .assine input[type=email]:focus{border-bottom:1px solid #ffa600;}	
+
+.erro, .success{height:50px; width: 100%; position:fixed; text-align: center; top: 100%; margin-top: -50px; z-index: 9999; line-height: 50px; display:none; color:#FFF; font-size: 15px;}
+        
+.erro{background-color: #B90003;}
+.success{background-color: #2AB900;}
+		
+.assine-box ::placeholder{color:#000 !important;}
+input[type=email]::placeholder{text-transform: none;}
+
+.assine-fundo{position: absolute; height: 750px; right: 0; bottom: 0; z-index: 10;}
+
+
+
+}

@@ -13,10 +13,8 @@ import Database.Persist.Postgresql
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_CSS_css)
+        addStylesheet (StaticR css_Mobile_css)
         --toWidgetHead $(luciusFile "templates/aaa.lucius")
-        --toWidgetHead $(luciusFile "templates/aaa.julius")
-        $(whamletFile "templates/profile.hamlet")
-        
-getQualquerCoisaR :: Handler Html
-getQualquerCoisaR = undefined
+        toWidgetHead $(luciusFile "templates/home.julius")
+        $(whamletFile "templates/home.hamlet")
