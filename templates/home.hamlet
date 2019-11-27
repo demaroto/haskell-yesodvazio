@@ -3,7 +3,6 @@
 <article .erro #erro2-email>Digite um email válido
 <article .erro #erro-estado>Selecione o Estado
 <article .success #success>Assinatura realizada com sucesso
-
 <header>
   <article .header-content>
   <img src="Imagens/Home/logo.png" .logo-menu>
@@ -16,8 +15,7 @@
       <div .icon-menu>
         <div .line-icon>
         <div .line-icon>
-        <div .line-icon>		
-
+        <div .line-icon>
 <div .menu-animate menu-animate-mobile>
     <div .seta>    
     <div .nav nav-mobile>
@@ -29,7 +27,6 @@
             <div .menu-line> 
              <li><a href="#3">Assinar Agora
             <div .menu-line> 
-            
 <section .home #1>
     <article .home-box>
       <h1>Petição <a .fonte-menor>para
@@ -41,7 +38,6 @@
     <article .content>
         <article .home-info-box>
             <h3><strong>Atenção!<br>Este site não possuí nenhuma posição política!<br>Tem apenas como objetivo a revogação de um decreto.	
-		
         <article .home-info-assinaturas>
             <h3>
                <strong>100pessoas assinaram	
@@ -62,13 +58,11 @@
             <article .funciona-box>
                 <img src="Imagens/Home/icon1.png">
                 <h3>As assinaturas são realizadas online com o intuito de cancelar o encerramento da hora de verão.
-			
              <article .funciona-box funciona-box-lines>
-             <img src="Imagens/Home/icon2.png">
-             <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
-			
+               <img src="Imagens/Home/icon2.png">
+               <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
              <article .funciona-box>
-              <img src="Imagens/Home/icon3.png>
+                <img src="Imagens/Home/icon3.png>
                 <h3>Após recolhido, todos os dados serão enviados!
 <section .assine>
        <article .assine-block #3>
@@ -107,7 +101,6 @@
                     <option value="SE">Sergipe
                     <option value="TO">Tocantins
                 <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
-		
             <article .assine-box2>
             <img src="Imagens/Home/contato.png">
             <h2>Não se preocupe!
