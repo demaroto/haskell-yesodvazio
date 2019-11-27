@@ -1,5 +1,5 @@
 git add . &&
-git commit -m $1 &&
+git commit -m "$1" &&
 git push origin master &&
 ssh root@51.254.116.21 <<EOF
 cd projeto &&
