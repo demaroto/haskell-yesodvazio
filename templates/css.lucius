@@ -62,7 +62,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Home ---------------------------------------------- */
 
-.home{height:100vh; background-color: #FFF; padding: 0; background-image: url(../Imagens/Home/home.png); background-size: cover; background-position: center -50px;}
+.home{height:100vh; background-color: #FFF; padding: 0; background-image: url(@{StaticR img_home_png}); background-size: cover; background-position: center -50px;}
         
 .home-box{width: 370px; position: absolute; text-align: left; top: 50%; margin-top: -150px; left:50%; margin-left: -500px;}
 
