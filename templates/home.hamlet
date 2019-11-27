@@ -1,110 +1,109 @@
-<div .container>
-  <article .erro #erro-nome>Digite o Nome
-  <article .erro #erro-email>Digite o Email
-  <article .erro #erro2-email>Digite um email válido
-  <article .erro #erro-estado>Selecione o Estado
-  <article .success #success>Assinatura realizada com sucesso
-  <header>
-    <article .header-content>
-    <img src=@{StaticR img_logo_png} .logo-menu>
-    <img src=@{StaticR img_share_png} .compartilhar>
-          <nav .nav-desktop>
-              <ul>
-                  <li><a href="#1" #inicio>Início
-                  <li><a href="#2" #funciona>Como funciona
-                  <li><a href="#3" #assinar>Assinara agora
-        <div .icon-menu>
-          <div .line-icon>
-          <div .line-icon>
-          <div .line-icon>
-  <div .menu-animate menu-animate-mobile>
-      <div .seta>    
-      <div .nav nav-mobile>
-          <ul>
-           <div .menu-line>
-           <li><a href="#1">Início
-              <div .menu-line> 
-               <li><a href="#2">Como funciona
-              <div .menu-line> 
-               <li><a href="#3">Assinar Agora
-              <div .menu-line> 
-  <section .home #1>
-      <article .home-box>
-        <h1>Petição <a .fonte-menor>para
-        <h1>Horário
-        <h1 .ajuste-home-fonte>de <strong>Verão
-        <h3>Se você apoia para que o nosso querido e amado horário de verão volte,<br><a>assine a petição!
-          <input type="button" .btn-assinar value="Assinar Agora">
-  <section .home-info>
-      <article .content>
-          <article .home-info-box>
-              <h3><strong>Atenção!<br>Este site não possuí nenhuma posição política!<br>Tem apenas como objetivo a revogação de um decreto.	
-          <article .home-info-assinaturas>
-              <h3>
-                 <strong>100pessoas assinaram	
-  <section .lei>
-        <article .mask>
-          <article .content>
-              <img src=@{StaticR img_aspas_png} .aspas>
-              <h1>9.772/19
-              <h2>Encerra a hora de verão no território nacional.
-              <div .lei-line>
-              <h3>O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, caput, inciso IV, da Constituição, e tendo em vista o disposto no art. 1º, caput, inciso I, alínea b, e § 2º, do Decreto-Lei nº 4.295, de 13 de maio de 1942, DECRETA:<br>	
-              <h3><strong>Art. 1ºFica encerrada a hora de verão no território nacional.<br>	
-              <h4>Conteúdo retirado do <a href="https://presrepublica.jusbrasil.com.br/legislacao/702677851/decreto-9772-19" target="_blank">site JusBrasil.<br>
-  <section .funciona #2>
-      <h1>Como Funciona
-       <article .content>
-          <article .funciona-block>
-              <article .funciona-box>
-                  <img src=@{StaticR img_icon1_png}>
-                  <h3>As assinaturas são realizadas online com o intuito de cancelar o encerramento da hora de verão.
-               <article .funciona-box funciona-box-lines>
-                 <img src=@{StaticR img_icon2_png}>
-                 <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
-               <article .funciona-box>
-                  <img src=@{StaticR img_icon3_png}>
-               
-                  <h3>Após recolhido, todos os dados serão enviados!
-  <section .assine>
-         <article .assine-block #3>
-           <article .assine-box>
-            <h1>Assine agora
-             <form method="post" #form name="form">
-                  <input type="text" #nome name="nome" placeholder="Nome" autocomplete="off"><br>
-                  <input type="email" #email name="email" placeholder="E-mail" autocomplete="off"><br><br>
-                  <select .ls-select #estado name="estado">
-                      <option value="ND" disabled selected>Estado
-                      <option value="AC">Acre
-                      <option value="AL">Alagoas
-                      <option value="AP">Amapá
-                      <option value="AM">Amazonas
-                      <option value="BA">Bahia
-                      <option value="CE">Ceará
-                      <option value="DF">Distrito Federal
-                      <option value="ES">Espírito Santo
-                      <option value="GO">Goiás
-                      <option value="MA">Maranhão
-                      <option value="MT">Mato Grosso
-                      <option value="MS">Mato Grosso do Sul
-                      <option value="MG">Minas Gerais
-                      <option value="PA">Pará
-                      <option value="PB">Paraíba
-                      <option value="PR">Paraná
-                      <option value="PE">Pernambuco
-                      <option value="PI">Piauí
-                      <option value="RJ">Rio de Janeiro
-                      <option value="RN">Rio Grande do Norte
-                      <option value="RS">Rio Grande do Sul
-                      <option value="RO">Rondônia
-                      <option value="RR">Roraima
-                      <option value="SC">Santa Catarina
-                      <option value="SP">São Paulo
-                      <option value="SE">Sergipe
-                      <option value="TO">Tocantins
-                  <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
-              <article .assine-box2>
-              <img src=@{StaticR img_contato_png}>
-              <h2>Não se preocupe!
-              <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
-      <img src=@{StaticR img_assine-fundo_png} .assine-fundo>
+<article .erro #erro-nome>Digite o Nome
+<article .erro #erro-email>Digite o Email
+<article .erro #erro2-email>Digite um email válido
+<article .erro #erro-estado>Selecione o Estado
+<article .success #success>Assinatura realizada com sucesso
+<header>
+  <article .header-content>
+  <img src=@{StaticR img_logo_png} .logo-menu>
+  <img src=@{StaticR img_share_png} .compartilhar>
+        <nav .nav-desktop>
+            <ul>
+                <li><a href="#1" #inicio>Início
+                <li><a href="#2" #funciona>Como funciona
+                <li><a href="#3" #assinar>Assinara agora
+      <div .icon-menu>
+        <div .line-icon>
+        <div .line-icon>
+        <div .line-icon>
+<div .menu-animate menu-animate-mobile>
+    <div .seta>    
+    <div .nav nav-mobile>
+        <ul>
+         <div .menu-line>
+         <li><a href="#1">Início
+            <div .menu-line> 
+             <li><a href="#2">Como funciona
+            <div .menu-line> 
+             <li><a href="#3">Assinar Agora
+            <div .menu-line> 
+<section .home #1>
+    <article .home-box>
+      <h1>Petição <a .fonte-menor>para
+      <h1>Horário
+      <h1 .ajuste-home-fonte>de <strong>Verão
+      <h3>Se você apoia para que o nosso querido e amado horário de verão volte,<br><a>assine a petição!
+        <input type="button" .btn-assinar value="Assinar Agora">
+<section .home-info>
+    <article .content>
+        <article .home-info-box>
+            <h3><strong>Atenção!<br>Este site não possuí nenhuma posição política!<br>Tem apenas como objetivo a revogação de um decreto.	
+        <article .home-info-assinaturas>
+            <h3>
+               <strong>100pessoas assinaram	
+<section .lei>
+      <article .mask>
+        <article .content>
+            <img src=@{StaticR img_aspas_png} .aspas>
+            <h1>9.772/19
+            <h2>Encerra a hora de verão no território nacional.
+            <div .lei-line>
+            <h3>O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, caput, inciso IV, da Constituição, e tendo em vista o disposto no art. 1º, caput, inciso I, alínea b, e § 2º, do Decreto-Lei nº 4.295, de 13 de maio de 1942, DECRETA:<br>	
+            <h3><strong>Art. 1ºFica encerrada a hora de verão no território nacional.<br>	
+            <h4>Conteúdo retirado do <a href="https://presrepublica.jusbrasil.com.br/legislacao/702677851/decreto-9772-19" target="_blank">site JusBrasil.<br>
+<section .funciona #2>
+    <h1>Como Funciona
+     <article .content>
+        <article .funciona-block>
+            <article .funciona-box>
+                <img src=@{StaticR img_icon1_png}>
+                <h3>As assinaturas são realizadas online com o intuito de cancelar o encerramento da hora de verão.
+             <article .funciona-box funciona-box-lines>
+               <img src=@{StaticR img_icon2_png}>
+               <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
+             <article .funciona-box>
+                <img src=@{StaticR img_icon3_png}>
+             
+                <h3>Após recolhido, todos os dados serão enviados!
+<section .assine>
+       <article .assine-block #3>
+         <article .assine-box>
+          <h1>Assine agora
+           <form method="post" #form name="form">
+                <input type="text" #nome name="nome" placeholder="Nome" autocomplete="off"><br>
+                <input type="email" #email name="email" placeholder="E-mail" autocomplete="off"><br><br>
+                <select .ls-select #estado name="estado">
+                    <option value="ND" disabled selected>Estado
+                    <option value="AC">Acre
+                    <option value="AL">Alagoas
+                    <option value="AP">Amapá
+                    <option value="AM">Amazonas
+                    <option value="BA">Bahia
+                    <option value="CE">Ceará
+                    <option value="DF">Distrito Federal
+                    <option value="ES">Espírito Santo
+                    <option value="GO">Goiás
+                    <option value="MA">Maranhão
+                    <option value="MT">Mato Grosso
+                    <option value="MS">Mato Grosso do Sul
+                    <option value="MG">Minas Gerais
+                    <option value="PA">Pará
+                    <option value="PB">Paraíba
+                    <option value="PR">Paraná
+                    <option value="PE">Pernambuco
+                    <option value="PI">Piauí
+                    <option value="RJ">Rio de Janeiro
+                    <option value="RN">Rio Grande do Norte
+                    <option value="RS">Rio Grande do Sul
+                    <option value="RO">Rondônia
+                    <option value="RR">Roraima
+                    <option value="SC">Santa Catarina
+                    <option value="SP">São Paulo
+                    <option value="SE">Sergipe
+                    <option value="TO">Tocantins
+                <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
+            <article .assine-box2>
+            <img src=@{StaticR img_contato_png}>
+            <h2>Não se preocupe!
+            <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
+    <img src=@{StaticR img_assinefundo_png} .assine-fundo>
