@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* ---------------------------------------------- Body ---------------------------------------------- */
-
 body{margin:0; padding:0; overflow-x:hidden;}
 
 ::-webkit-scrollbar-track{background-color:#000000;}
