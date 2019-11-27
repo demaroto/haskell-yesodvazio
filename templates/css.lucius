@@ -83,7 +83,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Home - Info ---------------------------------------------- */
 
-.home-info{background-image: url(@{StaticR img_como-funciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center; padding:20px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
+.home-info{background-image: url(@{StaticR img_comofunciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center; padding:20px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
 
 .home-info-assinaturas{position: absolute; right: 0; margin-top: -60px;}
 
@@ -115,7 +115,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Funciona ---------------------------------------------- */
 
-.funciona{background-image: url(@{StaticR img_como-funciona_png}); padding-bottom: 250px; background-size: cover; background-repeat: no-repeat; background-position: center;}
+.funciona{background-image: url(@{StaticR img_comofunciona_png}); padding-bottom: 250px; background-size: cover; background-repeat: no-repeat; background-position: center;}
 
 .funciona-block{height: 300px; width: 100%; position: relative;}
 

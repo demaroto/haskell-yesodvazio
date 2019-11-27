@@ -52,7 +52,7 @@ header{position:fixed; height:50px; width:100%; z-index:100; background-color: #
 	
 /* ---------------------------------------------- Home ---------------------------------------------- */
 
-.home{background-color: #FFF; padding: 0; background-image: url(@{StaticR img_home-mob_png}); background-size: cover; background-position: center; padding-top: 50px; padding-bottom: 70px;}
+.home{background-color: #FFF; padding: 0; background-image: url(@{StaticR img_homemob_png}); background-size: cover; background-position: center; padding-top: 50px; padding-bottom: 70px;}
         
 .home-box{width: 100%; position:relative; padding: 0px 5%; padding-top: 60px;}
 
@@ -70,7 +70,7 @@ header{position:fixed; height:50px; width:100%; z-index:100; background-color: #
 
 /* ---------------------------------------------- Home - Info ---------------------------------------------- */
 
-.home-info{background-image: url(@{StaticR img_como-funciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center; padding:40px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
+.home-info{background-image: url(@{StaticR img_comofunciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center; padding:40px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
 
 .home-info-assinaturas{position: relative; right: 0; margin-top: 35px;}
 
@@ -100,7 +100,7 @@ header{position:fixed; height:50px; width:100%; z-index:100; background-color: #
 
 /* ---------------------------------------------- Funciona ---------------------------------------------- */
 
-.funciona{background-image: url(@{StaticR img_como-funciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center;}
+.funciona{background-image: url(@{StaticR img_comofunciona_png}); background-size: cover; background-repeat: no-repeat; background-position: center;}
 
 .funciona-box{width:100%; position: relative; padding:50px 0px; text-align: center;}
 
