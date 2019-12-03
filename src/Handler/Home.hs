@@ -10,7 +10,6 @@ import Text.Lucius
 import Text.Julius
 import Database.Persist.Postgresql
 
-staticFiles "static/"
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
