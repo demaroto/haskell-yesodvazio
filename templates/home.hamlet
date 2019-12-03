@@ -63,7 +63,6 @@
                <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
              <article .funciona-box>
                 <img src=@{StaticR img_icon3_png}>
-             
                 <h3>Após recolhido, todos os dados serão enviados!
 <section .assine>
        <article .assine-block #3>
@@ -101,9 +100,9 @@
                     <option value="SP">São Paulo
                     <option value="SE">Sergipe
                     <option value="TO">Tocantins
-                <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
+                    <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
             <article .assine-box2>
             <img src=@{StaticR img_contato_png}>
             <h2>Não se preocupe!
             <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
-<img src=@{StaticR img_assinefundo_png} .assine-fundo>
+<img src=@{StaticR img_assinefundo_png} .assine-fundo> 

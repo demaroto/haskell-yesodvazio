@@ -6,7 +6,7 @@
 module Handler.Home where
 
 import Import
-import Text.Lucius -- css
+import Text.Lucius
 import Text.Julius
 import Database.Persist.Postgresql
 
