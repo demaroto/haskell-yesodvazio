@@ -1,39 +1,16 @@
-<article .erro #erro-nome>Digite o Nome
-<article .erro #erro-email>Digite o Email
-<article .erro #erro2-email>Digite um email válido
-<article .erro #erro-estado>Selecione o Estado
-<article .success #success>Assinatura realizada com sucesso
 <header>
   <article .header-content>
-  <img src=@{StaticR img_logo_png} .logo-menu>
-  <img src=@{StaticR img_share_png} .compartilhar>
-        <nav .nav-desktop>
-            <ul>
-                <li><a href="#1" #inicio>Início
-                <li><a href="#2" #funciona>Como funciona
-                <li><a href="#3" #assinar>Assinara agora
-      <div .icon-menu>
-        <div .line-icon>
-        <div .line-icon>
-        <div .line-icon>
-<div .menu-animate menu-animate-mobile>
-    <div .seta>    
-    <div .nav nav-mobile>
-        <ul>
-            <div .menu-line>
-            <li><a href="#1">Início
-            <div .menu-line> 
-            <li><a href="#2">Como funciona
-            <div .menu-line> 
-            <li><a href="#3">Assinar Agora
-            <div .menu-line> 
+    <img src=@{StaticR img_logo_png} .logo-menu>
+    <img src=@{StaticR img_share_png} .compartilhar>
+
 <section .home #1>
     <article .home-box>
       <h1>Petição <a .fonte-menor>para
       <h1>Horário
       <h1 .ajuste-home-fonte>de <strong>Verão
       <h3>Se você apoia para que o nosso querido e amado horário de verão volte,<br><a>assine a petição!
-        <input type="button" .btn-assinar value="Assinar Agora">
+      <input type="button" .btn-assinar value="Assinar Agora">
+
 <section .home-info>
     <article .content>
         <article .home-info-box>
@@ -41,6 +18,7 @@
         <article .home-info-assinaturas>
             <h3>
                <strong>100pessoas assinaram	
+
 <section .lei>
       <article .mask>
         <article .content>
@@ -51,6 +29,7 @@
             <h3>O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, caput, inciso IV, da Constituição, e tendo em vista o disposto no art. 1º, caput, inciso I, alínea b, e § 2º, do Decreto-Lei nº 4.295, de 13 de maio de 1942, DECRETA:<br>	
             <h3><strong>Art. 1ºFica encerrada a hora de verão no território nacional.<br>	
             <h4>Conteúdo retirado do <a href="https://presrepublica.jusbrasil.com.br/legislacao/702677851/decreto-9772-19" target="_blank">site JusBrasil.<br>
+
 <section .funciona #2>
     <h1>Como Funciona
      <article .content>
@@ -64,6 +43,7 @@
              <article .funciona-box>
                 <img src=@{StaticR img_icon3_png}>
                 <h3>Após recolhido, todos os dados serão enviados!
+
 <section .assine>
        <article .assine-block #3>
          <article .assine-box>
@@ -102,7 +82,7 @@
                     <option value="TO">Tocantins
                     <input type="button" #btn-assinar name="btn-assinar" value="Assinar">
             <article .assine-box2>
-            <img src=@{StaticR img_contato_png}>
-            <h2>Não se preocupe!
-            <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
+              <img src=@{StaticR img_contato_png}>
+              <h2>Não se preocupe!
+              <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
 <img src=@{StaticR img_assinefundo_png} .assine-fundo> 
