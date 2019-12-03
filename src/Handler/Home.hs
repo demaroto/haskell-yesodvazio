@@ -16,5 +16,4 @@ getHomeR = do
     defaultLayout $ do
         toWidgetHead $(luciusFile "templates/css.lucius")
         toWidgetHead $(luciusFile "templates/mobile.lucius")
-        toWidgetHead $(luciusFile "templates/home.julius")
         $(whamletFile "templates/home.hamlet")
