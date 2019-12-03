@@ -8,7 +8,6 @@ module Handler.Home where
 
 import Import
 import Text.Lucius
-import Text.Julius
 import Database.Persist.Postgresql
 
 getHomeR :: Handler Html
