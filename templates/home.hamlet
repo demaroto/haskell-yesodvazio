@@ -20,12 +20,12 @@
     <div .seta>    
     <div .nav nav-mobile>
         <ul>
-         <div .menu-line>
-         <li><a href="#1">Início
+            <div .menu-line>
+            <li><a href="#1">Início
             <div .menu-line> 
-             <li><a href="#2">Como funciona
+            <li><a href="#2">Como funciona
             <div .menu-line> 
-             <li><a href="#3">Assinar Agora
+            <li><a href="#3">Assinar Agora
             <div .menu-line> 
 <section .home #1>
     <article .home-box>

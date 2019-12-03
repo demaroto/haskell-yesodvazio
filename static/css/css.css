@@ -15,9 +15,9 @@ textarea, input[type="text"], input[type="email"], input[type="tel"], input[type
 
 textarea{resize: none;}
 
-@font-face {font-family: 'Gotham-black'; src: url(../Fontes/gotham-black.otf);}
-@font-face {font-family: 'Gotham-bold'; src: url(../Fontes/gotham-bold.otf);}
-@font-face {font-family: 'Gotham-book'; src: url(../Fontes/gotham-book.otf);}
+@font-face {font-family: 'Gotham-black'; src: url(../fonts/gothamblack.otf);}
+@font-face {font-family: 'Gotham-bold'; src: url(../fonts/gothambold.otf);}
+@font-face {font-family: 'Gotham-book'; src: url(../fonts/gothambook.otf);}
 
 @media only screen and (min-width:1024px){
 	
@@ -63,7 +63,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Home ---------------------------------------------- */
 
-.home{height:100vh; background-color: #FFF; padding: 0; background-image: url(../Imagens/Home/home.png); background-size: cover; background-position: center -50px;}
+.home{height:100vh; background-color: #FFF; padding: 0; background-image: url(../img/home.png); background-size: cover; background-position: center -50px;}
         
 .home-box{width: 370px; position: absolute; text-align: left; top: 50%; margin-top: -150px; left:50%; margin-left: -500px;}
 
@@ -83,7 +83,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Home - Info ---------------------------------------------- */
 
-.home-info{background-image: url(../Imagens/Home/como-funciona.png); background-size: cover; background-repeat: no-repeat; background-position: center; padding:20px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
+.home-info{background-image: url(../img/comofunciona.png); background-size: cover; background-repeat: no-repeat; background-position: center; padding:20px 0px; box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.5);}
 
 .home-info-assinaturas{position: absolute; right: 0; margin-top: -60px;}
 
@@ -97,7 +97,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Lei ---------------------------------------------- */
 
-.lei{background-image: url(../Imagens/Home/lei.png); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 0; color: #FFF;}
+.lei{background-image: url(../img/lei.png); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 0; color: #FFF;}
 
 .lei .mask{padding: 70px 0px;}
 
@@ -115,7 +115,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 /* ---------------------------------------------- Funciona ---------------------------------------------- */
 
-.funciona{background-image: url(../Imagens/Home/como-funciona.png); padding-bottom: 250px; background-size: cover; background-repeat: no-repeat; background-position: center;}
+.funciona{background-image: url(../img/comofunciona.png); padding-bottom: 250px; background-size: cover; background-repeat: no-repeat; background-position: center;}
 
 .funciona-block{height: 300px; width: 100%; position: relative;}
 
