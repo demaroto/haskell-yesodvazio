@@ -1,11 +1,7 @@
-User
-    ident Text
-    password Text Maybe
-    UniqueUser ident
-    deriving Typeable
-Email
+Signature
+    name Text
     email Text
-    userId UserId Maybe
-    verkey Text Maybe
+    state Text
     UniqueEmail email
+    deriving Show
     
