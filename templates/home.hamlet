@@ -29,17 +29,17 @@
 
 <section .funciona #2>
     <h1>Como Funciona
-     <article .content>
+      <article .content>
         <article .funciona-block>
-            <article .funciona-box>
-                <img src=@{StaticR img_icon1_png}>
-                <h3>As assinaturas são realizadas online com o intuito de cancelar o encerramento da hora de verão.
-             <article .funciona-box funciona-box-lines>
-               <img src=@{StaticR img_icon2_png}>
-               <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
-             <article .funciona-box>
-                <img src=@{StaticR img_icon3_png}>
-                <h3>Após recolhido, todos os dados serão enviados!
+          <article .funciona-box>
+            <img src=@{StaticR img_icon1_png}>
+            <h3>As assinaturas são realizadas online com o intuito de cancelar o encerramento da hora de verão.
+          <article .funciona-box funciona-box-lines>
+            <img src=@{StaticR img_icon2_png}>
+            <h3>Após concluir um número X de assinaturas, a mesma será recolhida e formularizada para envio.
+          <article .funciona-box>
+            <img src=@{StaticR img_icon3_png}>
+            <h3>Após recolhido, todos os dados serão enviados!
 
 <section .assine>
        <article .assine-block #3>
