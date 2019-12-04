@@ -1,0 +1,33 @@
+$(document).ready(function(){
+
+	$(".compartilhar").click(function(){
+		window.location.href = "https://api.whatsapp.com/send?text=*Horário de Verão voltou?* %0DAinda não... Mas você pode contribuir com isso!%0DQueremos chegar a 90.000 assinaturas ainda hoje, bora?%0Dhttp://peticaoverao.com.br/";
+	});	
+
+/* ------------------------------------------------------------ Responsive --------------------------------------------------------- */
+	
+/* -------------------- Menu - Icon-------------------- */
+		
+	$(".icon-menu").click(function(e) {
+		$(".menu-animate").animate({"margin-left" : "-70%"}, 300);
+	});
+
+	$(".seta").click(function(e) {
+		$(".menu-animate").animate({"margin-left" : "0px"}, 300);
+	});
+
+/*  ------------------------------ Menu  ------------------------------ */	
+
+	$(".nav a").click(function(e) { 
+		event.preventDefault(); 
+		$(".nav a").removeClass("active"); 
+		$(this).addClass("active");		
+		$("html, body").animate({scrollTop: $($(this).attr('href')).offset().top - 30}, 800);
+		$(".menu-animate").animate({"margin-left" : "0px"}, 300); 
+	});
+
+	
+});
+
+
+
