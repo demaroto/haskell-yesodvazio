@@ -101,7 +101,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 .lei .mask{padding: 70px 0px;}
 
-.lei h1{color: #ff9100; opacity: 0.3; padding-bottom: 10px; font-size: 80px; color: #FFF !important;} 
+.lei h1{color: #ff9100; opacity: 0.3; padding-bottom: 10px; font-size: 80px;} 
 .lei h2{font-family: 'Gotham-bold'; color: #FFF !important; text-decoration:none;}
 .lei h3{color: #FFF !important;}
 .lei h4{opacity: 0.5; color: #FFF !important; text-decoration:none;}
