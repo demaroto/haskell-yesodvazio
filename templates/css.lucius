@@ -40,7 +40,7 @@ h4{font-size: 14px; line-height: 20px;}
 
 /* ---------------------------------------------- Header ---------------------------------------------- */
 
-header{height:100px; width: 100%; position:fixed; z-index: 9999; transition: .5s;}
+header{height:100px; width: 100%; position:fixed; z-index: 9999; background-color: #FFF;}
 
 .header-content{width: 1040px; position:relative; left: 50%; margin-left: -510px;}
 
@@ -62,6 +62,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 .compartilhar{height: 40px; right: 0; margin-top: 10px; cursor: pointer; z-index: 99; transition: .3s;}
 
 /* ---------------------------------------------- Home ---------------------------------------------- */
+
 .home{height:100vh; background-color: #FFF; padding: 0; background-image: url(@{StaticR img_home_png}); background-size: cover; background-position: center -50px;}
         
 .home-box{width: 370px; position: absolute; text-align: left; top: 50%; margin-top: -150px; left:50%; margin-left: -500px;}
@@ -126,6 +127,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 .funciona-box-lines{border: 1px solid #000; border-top: none; border-bottom: none;}
 
 .funciona h1{background-color: #000; color: #ffa600; padding:15px 0px 15px 70px; font-size: 30px; width: 390px; text-transform: uppercase; margin-bottom: 50px;}
+
 .funciona h3{font-size: 16px; line-height: 25px;}
 
 /* ---------------------------------------------- Assine ---------------------------------------------- */
