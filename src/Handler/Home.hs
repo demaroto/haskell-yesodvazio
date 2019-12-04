@@ -17,5 +17,5 @@ getHomeR = do
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.js"
         toWidgetHead $(luciusFile "templates/css.lucius")
         toWidgetHead $(luciusFile "templates/mobile.lucius")
-        toWidgetHead $(luciusFile "templates/js.julius")
+        toWidgetHead $(juliusFile "templates/js.julius")
         $(whamletFile "templates/home.hamlet")
