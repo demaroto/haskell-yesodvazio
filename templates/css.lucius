@@ -40,7 +40,7 @@ h4{font-size: 14px; line-height: 20px;}
 
 /* ---------------------------------------------- Header ---------------------------------------------- */
 
-header{height:100px; width: 100%; position:fixed; z-index: 9999; background-color: #FFF;}
+header{height:100px; width: 100%; position:fixed; z-index: 9999; background-color: #FFF; border-bottom: 1px solid #CCC;}
 
 .header-content{width: 1040px; position:relative; left: 50%; margin-left: -510px;}
 
@@ -59,7 +59,7 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 .logo-menu, .compartilhar{position: absolute;} 
 
 .logo-menu{height: 80px; margin-top: 10px;}
-.compartilhar{height: 40px; right: 0; margin-top: 10px; cursor: pointer; z-index: 99; transition: .3s;}
+.compartilhar{height: 40px; right: 0; margin-top: 30px; cursor: pointer; z-index: 99; transition: .3s;}
 
 /* ---------------------------------------------- Home ---------------------------------------------- */
 
