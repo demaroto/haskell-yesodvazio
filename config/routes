@@ -4,4 +4,4 @@
 /robots.txt RobotsR GET
 
 / HomeR GET
-/signature GET POST
+/signature SignatureR GET POST
