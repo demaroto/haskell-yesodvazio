@@ -15,10 +15,11 @@ import Database.Persist.Postgresql
 
 formSig :: Form (Signature, Text)
 formSig = renderBootstrap $ (,)
-    <$> (Signature 
+    <$> (Signature
         <$> areq textField "Nome: " Nothing
         <*> areq emailField "E-mail: " Nothing
     <*> areq (selectField $ optionsPairs [(MsgValue1, "value1"),(MsgValue2, "value2")]) "Which value?" Nothing
+
 getHomeR :: Handler Html
 getHomeR = do
     (widget,_) <- generateFormPost formSig
