@@ -33,7 +33,6 @@ getHomeR = do
         toWidgetHead $(juliusFile "templates/js.julius")
         $(whamletFile "templates/home.hamlet")
 
-
 postHomeR :: Handler Html
 postHomeR = do 
     ((result,_),_) <- runFormPost formSig
