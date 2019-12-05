@@ -3,5 +3,4 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET
-/signature SignatureR GET POST
+/ HomeR GET POST
