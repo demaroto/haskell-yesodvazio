@@ -12,7 +12,6 @@ import Text.Lucius
 import Text.Julius
 import Database.Persist.Postgresql
 
-
 formSig :: Form (Signature, Text)
 formSig = renderBootstrap $ (,)
     <$> (Signature
