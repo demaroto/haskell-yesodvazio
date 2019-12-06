@@ -18,4 +18,4 @@ getListSignatureR = do
     -- select * from signature order by signature.nome
     signatures <- runDB $ selectList [] [Asc SignatureNome]
     defaultLayout $ do 
-        $(whamletFile "templates/assinatures.hamlet")
+        $(whamletFile "templates/assinaturas.hamlet")
