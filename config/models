@@ -1,7 +1,6 @@
 Signature
     name Text
     email Text
-    state Text
-    UniqueEmail email
+    state Text  
     deriving Show
     

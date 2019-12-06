@@ -12,18 +12,21 @@ import Text.Lucius
 import Text.Julius
 import Database.Persist.Postgresql
 
-formSig :: Form (Signature, Text)
-formSig = renderBootstrap $ (,)
-    <$> (Signature
-        <$> areq textField "Nome: " Nothing
-        <*> areq emailField "E-mail: " Nothing
-    <*> areq (selectField $ optionsPairs [(MsgValue1, "value1"),(MsgValue2, "value2")]) "Which value?" Nothing
-
+formSig :: Form Signature 
+formSig = renderBootstrap $ Signature
+    <$> areq textField "Nome: " Nothing
+    <*> areq emailField "Email: " Nothing
+    <*> areq textField "Estado: " Nothing
+  
 getHomeR :: Handler Html
 getHomeR = do
     (widget,_) <- generateFormPost formSig
     msg <- getMessage
     defaultLayout $ do
+        toWidgetHead [hamlet|
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        |]
+        setTitle "Petição Verão | Assine"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         toWidgetHead $(luciusFile "templates/css.lucius")
         toWidgetHead $(luciusFile "templates/mobile.lucius")
@@ -34,18 +37,12 @@ postHomeR :: Handler Html
 postHomeR = do 
     ((result,_),_) <- runFormPost formSig
     case result of 
-        FormSuccess (sig,veri) -> do 
-            if (sigEmail sig == veri) then do 
-                runDB $ insert sig 
-                setMessage [shamlet|
-                    <div>
-                        Assinatura cadastrada
-                |]
-                redirect HomeR
-            else do 
-                setMessage [shamlet|
-                    <div>
-                        E-mail não é válido
-                |]
-                redirect HomeR
+        FormSuccess sig -> do 
+            runDB $ insert sig 
+            setMessage [shamlet|
+                <div>
+                    Denuncia feita com sucesso.
+            |]
+            redirect HomeR
         _ -> redirect HomeR
+    redirect HomeR
