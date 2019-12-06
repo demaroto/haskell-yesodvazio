@@ -4,3 +4,4 @@
 /robots.txt RobotsR GET
 
 / HomeR GET POST
+/assinaturas ListSignatureR GET
