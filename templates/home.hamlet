@@ -41,16 +41,13 @@
           <h3>Após recolhido, todos os dados serão enviados!
 
 <section .assine>
-$maybe mensagem <- msg 
-    <div>
-        ^{mensagem}
-       <article .assine-block #3>
-          <article .assine-box>
-            <h1>Assine agora
-            <form method=post action=@{HomeR}>
-                ^{widget}
-                <br>
-                <input type="submit" value="Cadastrar" class="btn btn-outline js-scroll-trigger">
+          <article .assine-block #3>
+            <article .assine-box>
+              <h1>Assine agora
+              <form method=post action=@{HomeR}>
+                  ^{widget}
+                  <br>
+                  <input type="submit" value="Cadastrar" class="btn btn-outline js-scroll-trigger">
           <article .assine-box2>
             <img src=@{StaticR img_contato_png}>
             <h2>Não se preocupe!
