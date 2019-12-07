@@ -163,7 +163,7 @@ option{font-size: 14px;}
 	
 .assine input[type=text]:focus, .assine input[type=email]:focus{border-bottom:1px solid #ffa600;}		
 
-.erro, .success{height:50px; width: 100%; position:fixed; text-align: center; top: 100%; margin-top: -50px; z-index: 9999; line-height: 50px; display:none; color:#FFF; font-size: 18px;}  
+.erro, .success{height:50px; width: 100%; position:fixed; text-align: center; top: 100%; margin-top: -50px; z-index: 9999; line-height: 50px; color:#FFF; font-size: 18px;}  
 .erro{background-color: #B90003;}
 .success{background-color: #2AB900;}
 
