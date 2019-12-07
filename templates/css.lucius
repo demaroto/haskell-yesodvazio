@@ -182,6 +182,6 @@ table{border-collapse:collapse; text-align:center; width:100%;}
 
 .table td{padding:15px 30px;}
 
-.table tr{background-color:#FFF; border-bottom:1px solid #CCC; text-align:left; font-size:16px;}
+.table tr{background-color:#FFF; border-bottom:1px solid #CCC; text-align:center; font-size:16px;}
 
 }
