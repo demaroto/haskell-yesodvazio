@@ -176,12 +176,12 @@ input[type=email]::placeholder{text-transform: none;}
 
 .assinaturas-content .content{background-color:#FFF; text-align:center;}
 
-table{border-collapse:collapse;}
+table{border-collapse:collapse; text-align:center;}
 
-.table thead{background-color:#000; padding:10px 20px;}
+.table thead{background-color:#000; padding:10px 20px; color:#FFF; height:50px; font-size:20px;}
 
-.table td{padding:10px 20px;}
+.table td{padding:15px 30px;}
 
-.table tr{backgroundcolor:#FFF; border-bottom:1px solid #CCC; text-align:left;}
+.table tr{backgroundcolor:#FFF; border-bottom:1px solid #CCC; text-align:left; font-size:16px;}
 
 }
