@@ -21,7 +21,7 @@ getListSignatureR = do
         toWidgetHead [hamlet|
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         |]
-        setTitle "Petição Verão | Assine"
+        setTitle "Petição Verão | Assinaturas"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         toWidgetHead $(luciusFile "templates/css.lucius")
         toWidgetHead $(luciusFile "templates/mobile.lucius")
