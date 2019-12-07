@@ -9,6 +9,6 @@
     <tbody>
       $forall Entity aid signature <- signatures
           <tr>
-            <td>#{signatureNome signature}
+            <td>#{signatureName signature}
             <td>#{signatureEmail signature}
             <td>#{signatureState signature}
