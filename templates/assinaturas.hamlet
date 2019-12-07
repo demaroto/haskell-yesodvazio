@@ -1,14 +1,16 @@
-<div #assinaturas-container>
-  <table class="table table-dark">
-    <thead>
-      <tr>
-        <th scope="col">Nome
-        <th scope="col">Email
-        <th scope="col">Estado
-  
-    <tbody>
-      $forall Entity aid signature <- signatures
+<article .assinaturas-content>
+  <article .content>
+    <div #assinaturas-container>
+      <table class="table table-dark">
+        <thead>
           <tr>
-            <td>#{signatureName signature}
-            <td>#{signatureEmail signature}
-            <td>#{signatureState signature}
+            <th scope="col">Nome
+            <th scope="col">Email
+            <th scope="col">Estado
+      
+        <tbody>
+          $forall Entity aid signature <- signatures
+              <tr>
+                <td>#{signatureName signature}
+                <td>#{signatureEmail signature}
+                <td>#{signatureState signature}
