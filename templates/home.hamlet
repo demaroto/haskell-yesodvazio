@@ -2,7 +2,6 @@
   <article .header-content>
     <img src=@{StaticR img_logo_png} .logo-menu>
     <img src=@{StaticR img_share_png} .compartilhar>
-
 <section .home #1>
     <article .home-box>
       <h1>Petição <a .fonte-menor>para
@@ -10,12 +9,10 @@
       <h1 .ajuste-home-fonte>de <strong>Verão
       <h3>Se você apoia para que o nosso querido e amado horário de verão volte.
       <input type="button" .btn-assinar value="Assinar Agora">
-
 <section .home-info>
     <article .content>
         <article .home-info-box>
             <h3><strong>Atenção!<br>Este site não possuí nenhuma posição política!<br>Tem apenas como objetivo a revogação de um decreto.	
-
 <section .lei>
       <article .mask>
         <article .content>
@@ -25,7 +22,6 @@
             <div .lei-line>
             <h3>O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, caput, inciso IV, da Constituição, e tendo em vista o disposto no art. 1º, caput, inciso I, alínea b, e § 2º, do Decreto-Lei nº 4.295, de 13 de maio de 1942, DECRETA:<br><br>
             <h3><strong>Art. 1º Fica encerrada a hora de verão no território nacional.
-
 <section .funciona #2>
     <h1>Como Funciona
     <article .content>
@@ -39,7 +35,6 @@
         <article .funciona-box>
           <img src=@{StaticR img_icon3_png}>
           <h3>Após recolhido, todos os dados serão enviados!
-
 <section .assine>
           <article .assine-block #3>
             <article .assine-box>
