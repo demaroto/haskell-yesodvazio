@@ -41,7 +41,7 @@ postHomeR = do
             runDB $ insert sig 
             setMessage [shamlet|
                 <div>
-                    Denuncia feita com sucesso.
+                    Peticao feita com sucesso.
             |]
             redirect HomeR
         _ -> redirect HomeR
