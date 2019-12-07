@@ -1,3 +1,6 @@
+$maybe mensa <- msg 
+  <div>
+      ^{mensa}
 <header>
   <article .header-content>
     <img src=@{StaticR img_logo_png} .logo-menu>
@@ -39,9 +42,6 @@
           <article .assine-block #3>
             <article .assine-box>
               <h1>Assine agora
-              $maybe mensa <- msg 
-                <div>
-                    ^{mensa}
               <form method=post action=@{HomeR}>
                   ^{widget}
                   <br>
