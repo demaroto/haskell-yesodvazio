@@ -148,7 +148,9 @@ nav a:hover{border-bottom:3px solid #ffa600; color: #ffa600;}
 
 .assine-box h1{font-size: 40px; margin-bottom: 30px;}
 
-.assine input[type=text], .assine input[type=email], .assine input[type=tel], .assine select{height: 60px; width: 100%; padding: 0px 8px; border: none; font-size: 16px; border-bottom:1px solid #000; transition:.3s; background-color: hsla(0, 0%, 0%, 0);} 
+.assine lab{text-align:left;}
+
+.assine input[type=text], .assine input[type=email], .assine input[type=tel], .assine select{height: 40px; width: 100%; padding: 0px 8px; border: none; font-size: 16px; border-bottom:1px solid #000; transition:.3s; background-color: hsla(0, 0%, 0%, 0); margin-bottom:20px;} 
     
 .assine input[type=text]{text-transform: capitalize;}
 .assine input[type=email]{text-transform: lowercase;}
