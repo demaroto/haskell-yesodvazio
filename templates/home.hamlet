@@ -43,8 +43,8 @@
                   ^{widget}
                   <br>
                   <input type="submit" value="Cadastrar" class="btn btn-outline js-scroll-trigger">
-          <article .assine-box2>
-            <img src=@{StaticR img_contato_png}>
-            <h2>Não se preocupe!
-            <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
+            <article .assine-box2>
+              <img src=@{StaticR img_contato_png}>
+              <h2>Não se preocupe!
+              <h3>Garantimos que todos os seus dados estão seguros e armazenados com criptografia avançada.
   <img src=@{StaticR img_assinefundo_png} .assine-fundo> 
