@@ -6,7 +6,7 @@
           <tr>
             <th scope="col">Nome
             <th scope="col">Email
-            <th scope="col">Estado
+            <th scope="col">Estado 
       
         <tbody>
           $forall Entity aid signature <- signatures
