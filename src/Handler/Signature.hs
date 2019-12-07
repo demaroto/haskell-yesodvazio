@@ -16,6 +16,6 @@ import Database.Persist.Postgresql
 getListSignatureR :: Handler Html
 getListSignatureR = do
     -- select * from signature order by signature.nome
-    signatures <- runDB $ selectList [] [Asc SignatureNome]
+    signatures <- runDB $ selectList [] [Asc SignatureName]
     defaultLayout $ do 
         $(whamletFile "templates/assinaturas.hamlet")
