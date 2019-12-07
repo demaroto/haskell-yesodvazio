@@ -184,4 +184,6 @@ table{border-collapse:collapse; text-align:center; width:100%;}
 
 .table tr{background-color:#FFF; border:1px solid #CCC; text-align:center; font-size:16px;}
 
+.table tbody tr{text-transform: capitalize;}
+
 }

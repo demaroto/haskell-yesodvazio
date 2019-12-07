@@ -40,7 +40,7 @@ postHomeR = do
         FormSuccess sig -> do 
             runDB $ insert sig 
             setMessage [shamlet|
-                <div>
+                <div .success>
                     Peticao feita com sucesso.
             |]
             redirect HomeR
